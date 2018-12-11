@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+/* style for group menu */
+.group-menu {
+	padding: 0 175px;
+	background-color: #2f2f2f;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	position: relative;
+}
+
+/*************************************************************/
+
+/* style logo */
+.home-icon {
+	width: 185px;
+}
+/*************************************************************/
+
+/* style search input */
+.search-input {
+	display: flex;
+	width: 355px;
+	position: relative;
+	align-items: center;
+}
+
+.search-input .input input {
+	width: 330px;
+	height: 20px;
+	padding: 5px 10px;
+}
+
+.search-input .search {
+	position: absolute;
+	right: 10px;
+}
+
+/*************************************************************/
+
+/* style list menu */
+
+.group-menu .list-menu {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.list-menu .item {
+	display: inline;
+}
+
+.list-menu .item a {
+	color: white;
+	text-decoration: none;
+	padding: 17px 10px;
+}
+
+.list-menu .mp3 a {
+	color: #a845de;
+	background-color: #000;
+}
+
+.list-menu .item a:hover {
+	color: #a845de;
+	background-color: #000;
+}
+
+/*************************************************************/
+
+/* style for log in */
+
+.group-menu .log-in {
+	position: absolute;
+	right: 175px;
+}
+
+.group-menu .log-in a {
+	text-decoration: none;
+	color: white;
+}
+
+.group-menu .log-in a:hover {
+	text-decoration: underline;
+}
