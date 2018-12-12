@@ -1,0 +1,107 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+.menu-service {
+	display: flex;
+	background-color: #e4e4e4;
+	align-items: center;
+	padding: 0 170px;
+	height: 40px;
+}
+
+.menu-service .icon a {
+	padding: 12px 5px;
+}
+
+.menu-service .your-music {
+	border-right: 0.5px solid #DDD;
+}
+
+.menu-service .list-service {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-service .list-service li {
+	display: inline;
+}
+
+.menu-service a {
+	text-decoration: none;
+	color: #000;
+	padding: 12px 15px;
+}
+
+.menu-service .select:hover {
+	color: purple;
+	background-color: #f2f2f2;
+}
+
+.menu-service .zma a {
+	background: linear-gradient(90deg, rgba(210,22,190,1) 0%, rgba(107,18,179,1) 63%);
+	padding: 5px 10px;
+	border-radius: 15px;
+	color: white;
+}
+
+.menu-service .quang-cao {
+	position: absolute;
+	right: 195px;
+}
+
+.menu-service .up-load {
+	position: absolute;
+	right: 170px;
+}
+
+
+/*
+* code  drop menu
+*/
+.has-menu {
+	position: relative;
+}
+
+.drop-menu {
+	position: absolute;
+	display: flex;
+	left: 0;
+	top: 25px;
+	background: #white;
+	display: none;
+}
+
+.list-service .has-menu:hover .drop-menu {
+	display: flex;
+}
+
+.has-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.has-item .item {
+	padding: 0;
+}
+
+.item li {
+	width: 170px;
+	padding: 10px 0px;
+}
+
+.has-item a:hover {
+	color: purple;
+}
+.has-item .item li {
+	display: block;
+}
+
+.title {
+	width: 150px;
+	padding: 10px;
+}
+
