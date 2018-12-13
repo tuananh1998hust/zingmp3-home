@@ -1,0 +1,177 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+/*
+	start code for title
+ */
+
+.title {
+	display: flex;
+	width: 300px;
+	padding: 20px 0;
+	font-size: 21.5px;
+}
+
+.title .name-title {
+	flex-grow: 1;
+}
+
+.title .name-title a {
+	text-decoration: none;
+	color: purple;
+	font-weight: 100;
+}
+
+.title .icon a {
+	color: black;
+}
+
+.title .icon a:hover {
+	color: purple;
+}
+
+/*
+	1. end code title zing chart
+	2. start code list zing chart
+*/
+
+.list-select {
+	list-style: none;
+	padding: 0;
+	width: 300px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	background-color: #f2f2f2;
+}
+
+.list-select .item {
+	width: 100px;
+	text-align: center;
+	border: 1px solid #DDD;
+	padding: 11px;
+}
+
+.list-select .select {
+	border-top: 2px solid purple;
+}
+
+.list-select .item a {
+	text-decoration: none;
+	height: 42px;
+	color: #000;
+}
+
+/*
+	1. end code list zing chart
+	2. start code top list end list item
+*/
+
+/* start style for top-list*/
+.top-list {
+	background-image: url('./img1.jpg');
+	width: 300px;
+	height: 126px;
+	background-size: cover;
+	background-position: center;
+}
+
+/* style for over lay */
+
+.top-list .overlay {
+	height: 100%;
+	background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.9) 90%);
+	display: flex;
+	align-items: flex-end;
+}
+
+
+/* start style for content */
+.content {
+	display: flex;
+	align-items: center;
+	color: white;
+	width: 300px;
+	padding: 10px;
+}
+
+.content .number {
+	font-size: 22px;
+	padding-right: 10px;
+}
+
+.content .info {
+	flex-grow: 1;
+	font-size: 14px;
+}
+
+.content .info .song {
+	padding-bottom: 10px;
+}
+
+.content .info a {
+	text-decoration: none;
+	color: white;
+	transition: all 300ms;
+}
+
+.content .info a:hover {
+	color: purple;
+}
+
+.content .view-count {
+	font-size: 12px;
+}
+
+/*
+	1. end code top list
+	2. start code list item
+*/
+
+.list-item {
+	display: flex;
+	align-items: center;
+	width: 290px;
+	border-bottom: 1px solid #DDD;
+	padding: 18px 5px;
+}
+
+.list-item .number {
+	font-size: 22px;
+	color: #000;
+	padding-right: 10px;
+}
+
+.list-item .info {
+	flex-grow: 1;
+}
+
+.list-item .info .song {
+	padding-bottom: 10px;
+}
+
+.list-item .info .song a {
+	color: #000;
+}
+
+.list-item .info .singer a {
+	color: #999;
+}
+
+.list-item .info a {
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+.list-item .info a:hover {
+	color: purple;
+}
+
+.list-item .view-count {
+	font-size: 12px;
+	color: #999;
+}
+
+/* end code list item */
