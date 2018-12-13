@@ -1,0 +1,166 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.rank-item {
+	width: 630px;
+	padding: 0 10px;
+}
+
+.album-item {
+	display: flex;
+	align-items: center;
+	padding: 15px 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.number1 {
+	font-size: 22px;
+	padding-right: 20px;
+	color: #4a90e2;
+}
+
+.number2 {
+	font-size: 22px;
+	padding-right: 20px;
+	color: #00AF64;
+}
+
+.number3 {
+	font-size: 22px;
+	padding-right: 20px;
+	color: #D8541C;
+}
+
+.number4 {
+	font-size: 22px;
+	padding-right: 20px;
+	color: #666;
+}
+
+.number5 {
+	font-size: 22px;
+	padding-right: 20px;
+	color: #666
+}
+
+.region {
+	font-size: 30px;
+	padding-right: 20px;
+	color: #666;
+}
+/*style for ava */
+.ava {
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+	font-size: 25px;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 100;
+}
+
+.rank01 {
+	background-image: url('./img1.jpg');
+}
+
+.rank02 {
+	background-image: url('./img2.jpg');
+}
+
+.rank03 {
+	background-image: url('./img3.jpg');
+}
+
+.rank04 {
+	background-image: url('./img4.jpg');
+}
+
+.rank05 {
+	background-image: url('./img5.jpg');
+}
+
+.ava .overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 400ms;
+	transform: scale(0.5);
+}
+
+.ava:hover .overlay {
+	opacity: 1;
+	transform: scale(1);
+} 
+
+
+
+.info-item {
+	height: 50px;
+}
+
+/* style for song */
+.song {
+	padding: 5px;
+}
+
+.song a {
+	color: #000;
+	text-decoration: none;
+}
+
+.song a:hover {
+	color: purple;
+}
+/* style for singer view*/
+
+.singer-view {
+	display: flex;
+	align-items: center;
+	width: 464px;
+	height: 20px;
+	padding: 5px;
+}
+
+.singer-view .singer a {
+	text-decoration: none;
+	color: #AAA;
+	font-size: 13px;
+}
+
+.singer-view .list-service {
+	list-style: none;
+	padding: 0;
+}
+
+.singer-view .list-service .service {
+	display: inline;
+	padding: 5px;
+}
+
+.singer-view .list-service .service a {
+	text-decoration: none;
+	color: #CCC;
+	transition: all 500ms;
+}
+
+.singer-view .list-service .service a:hover {
+	color: purple;
+}
+.singer-view .singer {
+	flex-grow: 1;
+}
+.singer-view .list-service {
+	flex-basis: 120px;
+	padding: 10px 0;
+	margin-right: 30px;
+}
+.singer-view .view-count {
+	flex-basis: 48px;
+	font-size: 18px;
+	color: #888;
+}
