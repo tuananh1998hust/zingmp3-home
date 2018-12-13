@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+.hot-topic .title h2 {
+	color: purple;
+	font-weight: 300;
+}
+
+.hot-topic .list-topic {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.hot-topic .list-topic li {
+	margin-bottom: 15px;
+}
+
+.hot-topic .list-topic img {
+	width: 300px;
+	height: 90px;
+}
+
+.hot-topic .list-topic a {
+	color: #707070;
+	text-decoration: none;
+	transition: all 500ms;
+}
+
+.hot-topic .list-topic a:hover {
+	color: purple;
+}
