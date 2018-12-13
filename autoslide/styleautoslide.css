@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+}
+
+.album-slide img {
+	border: 1px solid #DDD;
+	width: 650px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.item-slide {
+	display: none;
+}
+
+/* style for select item */
+.select-slide {
+	display: flex;
+}
+
+.select-slide img {
+	width: 124px;
+	height: 48px;
+	border: 1px solid #DDD;
+	padding-left: 4px;
+
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./styleautoslide.css">
+	</head>
+	<body>
+		<div class="album-slide">
+			<div class="item-slide">
+				<a href="#"><img src="./img1.jpg"></a>
+			</div>
+
+			<div class="item-slide">
+				<a href="#"><img src="./img2.jpg"></a>
+			</div>
+
+			<div class="item-slide">
+				<a href="#"><img src="./img3.jpg"></a>
+			</div>
+
+			<div class="item-slide">
+				<a href="#"><img src="./img4.jpg"></a>
+			</div>
+
+			<div class="item-slide">
+				<a href="#"><img src="./img5.jpg"></a>
+			</div>
+		</div>
+
+		<div class="select-slide">
+			<div class="select"><a href="#"><img src="./img1.jpg"></a></div>
+			<div class="select"><a href="#"><img src="./img2.jpg"></a></div>
+			<div class="select"><a href="#"><img src="./img3.jpg"></a></div>
+			<div class="select"><a href="#"><img src="./img4.jpg"></a></div>
+			<div class="select"><a href="#"><img src="./img5.jpg"></a></div>
+		</div>
+
+		<script type="text/javascript">
+
+			var itemSlide = document.getElementsByClassName('item-slide');
+			var selectSlide = document.getElementsByClassName('select');
+			console.log(selectSlide);
+
+			selectSlide[0].addEventListener('mouseover', function() {
+				reset();
+				itemSlide[0].style.display = 'block';
+			});
+
+			selectSlide[1].addEventListener('mouseover', function() {
+				reset();
+				itemSlide[1].style.display = 'block';
+			});
+
+			selectSlide[2].addEventListener('mouseover', function() {
+				reset();
+				itemSlide[2].style.display = 'block';
+			});
+
+			selectSlide[3].addEventListener('mouseover', function() {
+				reset();
+				itemSlide[3].style.display = 'block';
+			});
+
+			selectSlide[4].addEventListener('mouseover', function() {
+				reset();
+				itemSlide[4].style.display = 'block';
+			});
+
+			selectSlide[0].addEventListener('mouseout', function() {
+				reset();
+				showSlide();
+			});
+
+			// reset style img to none
+			function reset() {
+				itemSlide[0].style.display = 'none';
+				itemSlide[1].style.display = 'none';
+				itemSlide[2].style.display = 'none';
+				itemSlide[3].style.display = 'none';
+				itemSlide[4].style.display = 'none';
+			}
+
+			// auto run slide
+			function showSlide() {
+				var  num = 0
+				itemSlide[num].style.display = 'block';
+
+				// auto run slide
+				setInterval(function() {
+					reset();
+					num += 1;
+
+					if (num > 4) {
+						num = 0;
+						reset();
+						showSlide();
+					}
+
+					itemSlide[num].style.display = 'block';
+					
+				}, 5000);
+			}
+
+			showSlide();
+		</script>
+	</body>
+</html>
