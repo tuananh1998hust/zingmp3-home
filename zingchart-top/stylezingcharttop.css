@@ -97,6 +97,9 @@ body {
 	transform: scale(1);
 } 
 
+.ava .overlay a {
+	color: white;
+}
 
 
 .info-item {
