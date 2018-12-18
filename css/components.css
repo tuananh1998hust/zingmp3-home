@@ -1,0 +1,497 @@
+/* style  for group menu */
+
+.group-menu {
+	display: flex;
+	background: #101010;
+	align-items: center;
+	height: 50px;
+	padding: 0 170px;
+}
+
+.group-menu .icon {
+	width: 185px;
+}
+
+.group-menu .search input {
+	width: 355px;
+	height: 19px;
+	padding: 5px 10px;
+	margin-right: 20px;
+}
+
+.group-menu .service {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.group-menu .service li {
+	display: inline;
+}
+
+.group-menu a {
+	text-decoration: none;
+	color: white;
+	padding: 17px 10px;	
+}
+
+.group-menu .mp3 a {
+	color: purple;
+}
+
+.group-menu .service a:hover {
+	color: purple;
+	background-color: #000;
+	transition: all 500ms;
+}
+
+.group-menu .log-in {
+	position: absolute;
+	right: 170px;
+}
+
+.group-menu .log-in:hover {
+	text-decoration: underline;
+	transition: all 500ms;
+}
+
+/********************************************************/
+
+
+
+
+
+
+
+
+/* style for menu ser vice */
+
+.menu-service {
+	display: flex;
+	background-color: #e4e4e4;
+	align-items: center;
+	padding: 0 170px;
+	height: 40px;
+}
+
+.menu-service .icon a {
+	padding: 12px 5px;
+}
+
+.menu-service .your-music {
+	border-right: 0.5px solid #DDD;
+}
+
+.menu-service .list-service {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-service .list-service li {
+	display: inline;
+}
+
+.menu-service a {
+	text-decoration: none;
+	color: #000;
+	padding: 12px 15px;
+}
+
+.menu-service .select:hover {
+	color: purple;
+	background-color: #f2f2f2;
+}
+
+.menu-service .zma a {
+	background: linear-gradient(90deg, rgba(210,22,190,1) 0%, rgba(107,18,179,1) 63%);
+	padding: 5px 10px;
+	border-radius: 15px;
+	color: white;
+}
+
+.menu-service .quang-cao {
+	position: absolute;
+	right: 195px;
+}
+
+.menu-service .up-load {
+	position: absolute;
+	right: 170px;
+}
+
+
+/*
+* code  drop menu
+*/
+.has-menu {
+	position: relative;
+}
+
+.drop-menu {
+	position: absolute;
+	display: flex;
+	left: 0;
+	top: 25px;
+	background: #white;
+	display: none;
+}
+
+.list-service .has-menu:hover .drop-menu {
+	display: flex;
+}
+
+.has-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.has-item .item {
+	padding: 0;
+}
+
+.item li {
+	width: 170px;
+	padding: 10px 0px;
+}
+
+.has-item a:hover {
+	color: purple;
+}
+.has-item .item li {
+	display: block;
+}
+
+.title {
+	width: 150px;
+	padding: 10px;
+}
+
+/**********************************************************/
+
+
+
+
+
+
+
+
+
+/* style for auto slide */
+.album-slide {
+	margin-top: 55px;
+}
+
+.album-slide img {
+	border: 1px solid #DDD;
+	width: 650px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.item-slide {
+	display: none;
+}
+
+/* style for select item */
+.select-slide {
+	display: flex;
+}
+
+.select-slide img {
+	width: 124px;
+	height: 48px;
+	border: 1px solid #DDD;
+	padding-left: 4px;
+
+}
+
+
+/************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style for album week */
+.list-album-item {
+	display: flex;
+	margin-top: 65px;
+}
+
+
+.album-item {
+	background-image: url('img/albumweek/img1.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 128px;
+	height: 128px;
+	margin-left: 15px;
+	margin-bottom: 60px;
+}
+
+.album-item .overlay {
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    opacity: 0;
+    transform: 0.5;
+    transition: all 500ms;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.album-item .overlay a {
+	color: white;
+}
+
+.album-item:hover .overlay {
+	opacity: 1;
+	transform: 1;
+}
+
+.album-item .info a {
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.album-item .info a:hover {
+  color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* style for hot to pic */
+.hot-topic .title h2 {
+	color: purple;
+	font-weight: 300;
+}
+
+.hot-topic .list-topic {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.hot-topic .list-topic li {
+	margin-bottom: 15px;
+}
+
+.hot-topic .list-topic img {
+	width: 300px;
+	height: 90px;
+}
+
+.hot-topic .list-topic a {
+	color: #707070;
+	text-decoration: none;
+	transition: all 500ms;
+}
+
+.hot-topic .list-topic a:hover {
+	color: purple;
+}
+
+/*************************************************/
+
+
+
+
+
+
+/* style for zing chart week */
+
+/*
+	start code for title
+ */
+
+.title {
+	display: flex;
+	width: 300px;
+	padding: 20px 0;
+	font-size: 21.5px;
+}
+
+.title .name-title {
+	flex-grow: 1;
+}
+
+.title .name-title a {
+	text-decoration: none;
+	color: purple;
+	font-weight: 100;
+}
+
+.title .icon a {
+	color: black;
+}
+
+.title .icon a:hover {
+	color: purple;
+}
+
+/*
+	1. end code title zing chart
+	2. start code list zing chart
+*/
+
+.list-select {
+	list-style: none;
+	padding: 0;
+	width: 300px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	background-color: #f2f2f2;
+}
+
+.list-select .item {
+	width: 100px;
+	text-align: center;
+	border: 1px solid #DDD;
+	padding: 11px;
+}
+
+.list-select .select {
+	border-top: 2px solid purple;
+}
+
+.list-select .item a {
+	text-decoration: none;
+	height: 42px;
+	color: #000;
+}
+
+/*
+	1. end code list zing chart
+	2. start code top list end list item
+*/
+
+/* start style for top-list*/
+.top-list {
+	background-image: url('img/zingchartweek/img1.jpg');
+	width: 300px;
+	height: 126px;
+	background-size: cover;
+	background-position: center;
+}
+
+/* style for over lay */
+
+.top-list .overlay {
+	height: 100%;
+	background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.9) 90%);
+	display: flex;
+	align-items: flex-end;
+}
+
+
+/* start style for content */
+.content {
+	display: flex;
+	align-items: center;
+	color: white;
+	width: 300px;
+	padding: 10px;
+}
+
+.content .number {
+	font-size: 22px;
+	padding-right: 10px;
+}
+
+.content .info {
+	flex-grow: 1;
+	font-size: 14px;
+}
+
+.content .info .song {
+	padding-bottom: 10px;
+}
+
+.content .info a {
+	text-decoration: none;
+	color: white;
+	transition: all 300ms;
+}
+
+.content .info a:hover {
+	color: purple;
+}
+
+.content .view-count {
+	font-size: 12px;
+}
+
+/*
+	1. end code top list
+	2. start code list item
+*/
+
+.list-item {
+	display: flex;
+	align-items: center;
+	width: 290px;
+	border-bottom: 1px solid #DDD;
+	padding: 18px 5px;
+}
+
+.list-item .number {
+	font-size: 22px;
+	color: #000;
+	padding-right: 10px;
+}
+
+.list-item .info {
+	flex-grow: 1;
+}
+
+.list-item .info .song {
+	padding-bottom: 10px;
+}
+
+.list-item .info .song a {
+	color: #000;
+}
+
+.list-item .info .singer a {
+	color: #999;
+}
+
+.list-item .info a {
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+.list-item .info a:hover {
+	color: purple;
+}
+
+.list-item .view-count {
+	font-size: 12px;
+	color: #999;
+}
+
+/* end code list item */

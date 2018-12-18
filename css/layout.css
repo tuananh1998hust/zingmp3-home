@@ -1,0 +1,28 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 13% 50% 24% 13%;
+}
+
+.header {
+	grid-column: 1/5;
+}
+
+.main {
+	grid-column: 2/3;
+}
+
+.sidebar {
+	grid-column: 3/4;
+}
+
+.footer {
+	grid-column: 1/5;
+}
